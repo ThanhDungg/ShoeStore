@@ -1,0 +1,55 @@
+.banner {
+    display: flex;
+    align-items: center;
+    margin: auto auto auto 80px;
+}
+
+.title-banner {
+    margin-top: 12px;
+    font-weight: 600;
+}
+
+.input-img {
+    display: none;
+}
+
+.icon-img, .img{
+    width: 400px;
+    height: 400px;
+    cursor: pointer;
+}
+
+.upload-file1 {
+    margin-right: 80px;
+}
+
+.icon-img + .icon-img, .img + .img {
+    margin-right: 24px;
+}
+
+.img {
+    border-radius: 16px;
+}
+
+.footer-banner {
+    text-align: center;
+    font-size: 16px;
+    color: #9c9999;
+}
+
+
+.btn{
+    margin-top: 20px;
+    margin-left: 462px;
+    padding: 8px 16px;
+    background-color: #001066;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+    &:hover{
+        background-color: #ccc;
+        color: #001066;
+    }
+}

@@ -1,0 +1,26 @@
+.wrapper {
+    width: 309px;
+    height: 100%;
+    font-size: 18px;
+    line-height: 28px;
+    color: #11263C;
+}
+
+.content {   
+    border: 1px solid;
+    border-color: #E6E8F4;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 20px 0px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.container {
+}
+
+.active {
+    background-color: #E6E8F4;
+    font-weight: 600;
+}

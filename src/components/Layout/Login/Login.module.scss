@@ -1,0 +1,65 @@
+.wrapper {
+    display: flex;
+    height: 100%;
+}
+
+.input {
+    display: inline;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.btn {
+    display: inline;
+}
+.btn + .btn {
+    margin-top: 50px;
+}
+
+.btn-input {
+    padding: 16px 8px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+
+    &:focus {
+        border-bottom: 1px solid #0B2F8A;
+        outline: none;
+    }
+}
+
+.btn-sumit {
+    padding: 12px 24px;
+    margin-top: 20px;
+    background-color: #0B2F8A;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #c0bdbd;
+        color: #0B2F8A;
+    }
+}
+
+.title {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0B2F8A;
+}
+
+
+.title-password {
+    margin-top: 40px;
+}
+
+.title-btn {
+    color: #0B2F8A;
+    font-size: 16px;
+    font-weight: 600;
+}

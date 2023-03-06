@@ -1,0 +1,77 @@
+.wrapper {
+    margin-left: 42px;
+}
+
+.input-img {
+    display: none;
+}
+
+
+.icon-img, .img{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.img {
+    border-radius: 20px;
+}
+
+.mota, .hinhanh {
+    margin-top: 12px;
+}
+
+
+//input
+.nhaptensanpham, .nhapmota {
+    width: 500px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+
+    &:focus {
+        outline: none;
+        border: 1px solid #0B2F8A;
+    }
+}
+
+.nhaptensanpham {
+    height: 24px;
+    padding-left: 8px;
+}
+
+.nhapmota {
+    padding: 0 0 100px 8px;
+}
+
+
+//file
+
+
+//button
+.btns {
+    margin-top: 12px;
+    margin-left: 300px;
+}
+
+.btn + .btn {
+    margin-left: 16px;
+}
+
+.btn {
+    padding: 6px 32px;
+    border: none;
+    border-radius: 8px;
+    background-color: #0B2F8A;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    
+    &:hover{
+        color: #0B2F8A;
+        background-color: #ccc;
+    }
+}
+
+.btn-huy {
+    padding: 6px 32px;
+}

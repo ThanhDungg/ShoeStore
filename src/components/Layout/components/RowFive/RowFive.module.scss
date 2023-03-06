@@ -1,0 +1,47 @@
+.table {
+    margin-top: 16px;
+    margin-left: 24px;
+    background-color: #fff;
+    margin-right: 30px;
+    border: 1px solid #E6E8F4;
+    border-radius: 4px;
+}
+
+.tbl-content {
+    margin-left: 20px;
+    width: 100%;
+}
+
+.table-title {
+    margin-left: 20px;
+    padding: 12px 0 12px 0;
+}
+
+.row-title {
+    background-color: #E6E8F4;
+}
+
+.row {
+    background-color: transparent;
+    padding-top: 12px;
+    padding-bottom: 16px;
+    max-width: 150px;
+    border-bottom: 1px solid #E6E8F4;
+}
+
+.row-container {
+    background-color: transparent;
+}
+
+
+.row + .row {
+    padding-left: 160px;
+}
+
+.icon {
+    margin-left: 8px;
+}
+
+.icon + .icon {
+    margin-left: 30px;
+}

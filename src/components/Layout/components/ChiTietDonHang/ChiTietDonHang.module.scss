@@ -1,0 +1,36 @@
+.wrapper {
+    margin-left: 40px;
+    line-height: 24px;
+}
+
+.trangthai {
+    display: flex;
+}
+
+.title-trangthai {
+    margin-right: 40px;
+}
+
+
+.btn-trangthai{
+    background-color: #D9D9D9;
+    min-width: 114px;
+    text-align: center;
+    padding: 4px 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-trangthai + .btn-trangthai {
+    margin-left: 16px;
+}
+
+
+.active {
+    min-width: 114px;
+    text-align: center;
+    padding: 4px 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #486BE4;
+}

@@ -1,0 +1,51 @@
+.table {
+    margin-top: 16px;
+    margin-left: 24px;
+    background-color: #fff;
+    margin-right: 30px;
+    border: 1px solid #E6E8F4;
+    border-radius: 4px;
+}
+
+.tbl-content {
+    margin-left: 20px;
+    width: 100%;
+}
+
+.table-title {
+    margin-left: 20px;
+    padding: 12px 0 12px 0;
+}
+
+.row {
+    background-color: transparent;
+    padding-top: 12px;
+    padding-bottom: 16px;
+    max-width: 130px;
+    border-bottom: 1px solid #E6E8F4;
+}
+
+.row-container {
+    background-color: transparent;
+}
+
+
+.row + .row {
+    padding-left: 85px;
+}
+
+.icon {
+    padding: 4px 8px;
+    cursor: pointer;
+    border-radius: 4px;
+    
+    background-color: #E6E8F4;
+    color: #000;
+    &:hover {
+        background-color: #b9b5b5;
+    }
+}
+
+.icon + .icon {
+    margin-left: 16px;
+}
